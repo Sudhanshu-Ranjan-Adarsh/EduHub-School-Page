@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+
+    <section class="con-header">
+        <nav>
+            <a href="index.html"><img src="images/edu.png"</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact Us</h1>
+    </section>
+    
+    <!-- contact us content -->
+     <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3489.284625947522!2d77.07339991308592!3d29.008562394705784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1765451241222!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </section>
+
+     <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>NIFTEM Road, Kundli</h5>
+                        <p>Sonipat, Haryana</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>Ram Naresh Mahto, Inside Viwah Bhawan</h5>
+                        <p>Begusarai, Bihar</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+91 957-098-5978</h5>
+                        <p>Mondat to Saturday</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+91 930-621-2530</h5>
+                        <p>Monday to Friday</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>sudhanshu99964@gmail.com</h5>
+                        <p>Email us Now</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your Name Here" required>
+                    <input type="email" name="email" placeholder="Enter your Email Here" required>
+                    <input type="text" name="subject" placeholder="Enter your Subject Here" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+
+
+
+            </div>
+        </div>
+     </section>
+     
+    
+
+
+
+
+
+
+
+
+      <!-- footer section -->
+       <section class="footer">
+            <h4>About Us</h4>
+            <p>We are dedicated to creating a learning environment where students grow with confidence, curiosity,<br> and purpose. Our campus, facilities, and guidance are built to support every step of a student’s journey. We believe education works best when it feels inspiring,<br> accessible, and connected to real possibilities. Dedicated to fostering curiosity, confidence, and growth, we provide a learning environment that supports every step of a student’s journey.</p>
+       
+            <h4>Contact Now</h4>
+            <p>Reach out to us via email, phone, or visit our campus — we’re always ready to guide and support students and families.<br>We are providing a suitable features for contacting us regarding any queries related to it. Please contact us at<b> 9306212530</b></p>
+        
+            <h4>Courses Offered</h4>
+            <p>From intermediate to post-graduation, our courses combine practical knowledge with expert guidance to prepare students for real-world success.</p>
+
+            <h4>Campus & Facility</h4>
+            <p>Modern classrooms, labs, library, and sports areas create a vibrant space where learning, creativity, and fitness go hand in hand.</p>
+
+            <h4>Library</h4>
+            <p>A mix of physical and digital resources offers students a calm and resource-rich environment for study and exploration.</p>
+
+            <h4>Sports & Play</h4>
+            <p>Facilities for basketball, cricket, and children’s play areas encourage fitness, teamwork, and joyful activity.</p>
+        </section>
+
+        <section class="link">
+            <div class="logo">
+                <i class="fa-brands fa-figma"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            
+                <p>Thanks<i class="fa-solid fa-heart"></i> and visit again..</p>
+            </div>
+        </section>
+
+
+    <!-- javascript for menus -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/edu.png"</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+    </section>
+    
+    <!-- about us content -->
+     <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Our Vision</h1>
+                <p>We aim to create an educational environment where every student can grow with confidence, curiosity, and purpose. By combining modern teaching methods, comprehensive courses, and practical guidance, we help learners prepare for both academic and real-world challenges.</p>
+                <a href="" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                 <img src="images/about.jpg">
+            </div>
+        </div>
+     </section>
+
+
+
+
+
+
+
+
+
+      <!-- footer section -->
+       <section class="footer">
+            <h4>About Us</h4>
+            <p>We are dedicated to creating a learning environment where students grow with confidence, curiosity,<br> and purpose. Our campus, facilities, and guidance are built to support every step of a student’s journey. We believe education works best when it feels inspiring,<br> accessible, and connected to real possibilities. Dedicated to fostering curiosity, confidence, and growth, we provide a learning environment that supports every step of a student’s journey.</p>
+       
+            <h4>Contact Now</h4>
+            <p>Reach out to us via email, phone, or visit our campus — we’re always ready to guide and support students and families.<br>We are providing a suitable features for contacting us regarding any queries related to it. Please contact us at<b> 9306212530</b></p>
+        
+            <h4>Courses Offered</h4>
+            <p>From intermediate to post-graduation, our courses combine practical knowledge with expert guidance to prepare students for real-world success.</p>
+
+            <h4>Campus & Facility</h4>
+            <p>Modern classrooms, labs, library, and sports areas create a vibrant space where learning, creativity, and fitness go hand in hand.</p>
+
+            <h4>Library</h4>
+            <p>A mix of physical and digital resources offers students a calm and resource-rich environment for study and exploration.</p>
+
+            <h4>Sports & Play</h4>
+            <p>Facilities for basketball, cricket, and children’s play areas encourage fitness, teamwork, and joyful activity.</p>
+        </section>
+
+        <section class="link">
+            <div class="logo">
+                <i class="fa-brands fa-figma"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            
+                <p>Thanks<i class="fa-solid fa-heart"></i> and visit again..</p>
+            </div>
+        </section>
+
+
+    <!-- javascript for menus -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+
+
+    </script>
+</body>
+</html>

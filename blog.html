@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+
+    <section class="blog-header">
+        <nav>
+            <a href="index.html"><img src="images/edu.png"</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Blog Posts</h1>
+    </section>
+    
+    <!---blog page-->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificate Issuence</h2>
+                <p>This section explores study tips, exam strategies, and subject-wise guidance to help students learn smarter. Teachers and mentors share practical advice to make studying enjoyable and effective.</p>
+            
+                <img src="images/campus.jpg">
+                <h2>Campus Life</h2>
+                <p>Dive into the daily rhythm of our school — events, celebrations, classroom moments, and the little experiences that make learning feel alive. These stories capture the energy, creativity, and teamwork that shape our students every day.</p>
+                
+                <img src="images/achieve.jpg">
+                <h2>Student Achievements</h2>
+                <p>A space dedicated to celebrating the milestones of our learners — from academic awards to sports victories and creative accomplishments. Every achievement inspires the next.</p>
+            
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Queries"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Now</button>
+                    </form>
+                </div>
+            
+            
+            
+            </div>
+
+            <div class="blog-right">
+                <h3>Post Category</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>219</span>
+                </div>
+                <div>
+                    <span>AutCAD</span>
+                    <span>221</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>11</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Doctrate</span>
+                    <span>2100</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+      <!-- footer section -->
+       <section class="footer">
+            <h4>About Us</h4>
+            <p>We are dedicated to creating a learning environment where students grow with confidence, curiosity,<br> and purpose. Our campus, facilities, and guidance are built to support every step of a student’s journey. We believe education works best when it feels inspiring,<br> accessible, and connected to real possibilities. Dedicated to fostering curiosity, confidence, and growth, we provide a learning environment that supports every step of a student’s journey.</p>
+       
+            <h4>Contact Now</h4>
+            <p>Reach out to us via email, phone, or visit our campus — we’re always ready to guide and support students and families.<br>We are providing a suitable features for contacting us regarding any queries related to it. Please contact us at<b> 9306212530</b></p>
+        
+            <h4>Courses Offered</h4>
+            <p>From intermediate to post-graduation, our courses combine practical knowledge with expert guidance to prepare students for real-world success.</p>
+
+            <h4>Campus & Facility</h4>
+            <p>Modern classrooms, labs, library, and sports areas create a vibrant space where learning, creativity, and fitness go hand in hand.</p>
+
+            <h4>Library</h4>
+            <p>A mix of physical and digital resources offers students a calm and resource-rich environment for study and exploration.</p>
+
+            <h4>Sports & Play</h4>
+            <p>Facilities for basketball, cricket, and children’s play areas encourage fitness, teamwork, and joyful activity.</p>
+        </section>
+
+        <section class="link">
+            <div class="logo">
+                <i class="fa-brands fa-figma"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            
+                <p>Thanks<i class="fa-solid fa-heart"></i> and visit again..</p>
+            </div>
+        </section>
+
+
+    <!-- javascript for menus -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+
+
+    </script>
+</body>
+</html>
